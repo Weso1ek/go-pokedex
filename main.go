@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, World!")
+	words := cleanInput("  hello    world  ")
+
+	fmt.Println(words)
 }
